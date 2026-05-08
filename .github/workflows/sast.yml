@@ -17,4 +17,4 @@ jobs:
       docker pull mixeway/scanner:latest
    - name: Run Scan
      run: |
-      docker run -e OSS_USERNAME=mati.plichtas@gmail.com -e OSS_KEY=sonatype_pat_pmnef8nmT44JiuW07iVhASY6JwnXKHJj3zTJ64sSn0i5OIKz -e MIXEWAY_URL=https://hub.mixeway.io -e MIXEWAY_KEY=d6aed2c3-e3fc-411a-8426-42672fd9a0ae -e MIXEWAY_PROJECT_ID=197 -e MODE=STANDALONE -e MIXEWAY_PROJECT_NAME=mateuszpp_lab_secure_app -e COMMIT_ID=${{ steps.vars.outputs.sha_short }} -e BRANCH=${{ steps.vars.outputs.branch }} -v ${{ github.workspace }}:/opt/sources mixeway/scanner:latest
+      redacte
